@@ -1,0 +1,25 @@
+{
+    "name": "handwu/requirement_review_plan",
+    "description": "Automatic alignment of requirements review plans.",
+    "keywords": [
+        "Automatic",
+        "requirements review plan"
+    ],
+    "license": "GNU GENERAL PUBLIC LICENSE Version 2",
+    "type": "project",
+    "require": {
+        "php": ">=7.3.4",
+        "phpoffice/phpspreadsheet": "^1.18"
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://mirrors.aliyun.com/composer/"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "HandWu\\": "src/"
+        }
+    }
+}
