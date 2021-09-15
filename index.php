@@ -1,9 +1,6 @@
 <?php
-
-use HandWu\Excel\MyExcel;
-
 require 'vendor/autoload.php';
 
-$myexcel = new MyExcel();
+$myexcel = new RequirementReviewPlan\MyExcel();
 
-$myexcel->readSourceData("C:/Users/wuhaohua/Desktop/需求集中评审计划_20210915.xlsx");
+$myexcel->readSourceData("E:/Code/PHP/RequirementReviewPlan/需求集中评审计划_20210915.xlsx");
