@@ -40,12 +40,12 @@ class MyExcel
             $json = json_encode($data, JSON_UNESCAPED_UNICODE);
             file_put_contents("out.json", $json);
         }
-        exit(0);
+//        exit(0);
     }
 
     private function aa($data)
     {
         var_dump($data);
-        exit(0);
+//        exit(0);
     }
 }
