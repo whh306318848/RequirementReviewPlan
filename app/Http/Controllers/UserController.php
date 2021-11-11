@@ -8,7 +8,7 @@ use Illuminate\Routing\Controller as BaseController;
 
 class UserController extends BaseController
 {
-    public function index() {
-        return "index";
+    public function index($id, $name) {
+        return "index id:".$id." , name:".$name;
     }
 }
